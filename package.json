@@ -1,0 +1,22 @@
+{
+  "name": "mynatours",
+  "version": "1.0.0",
+  "description": "training node.js, express and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egorrya/mynatours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egorrya/mynatours/issues"
+  },
+  "homepage": "https://github.com/egorrya/mynatours#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
