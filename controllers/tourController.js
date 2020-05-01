@@ -5,7 +5,7 @@ const tours = JSON.parse(
 );
 
 exports.checkID = (req, res, next, val) => {
-  if (req.params * 1 > tours.lenght) {
+  if (req.params.id * 1 > tours.lenght) {
     return res.status(404).json({
       status: "fail",
       message: "invalid id",
@@ -62,7 +62,7 @@ exports.updateTour = (req, res) => {
   res.status(200).json({
     status: "success",
     data: {
-      tour: "updated tour",
+      tour: "<updated tour...>",
     },
   });
 };
