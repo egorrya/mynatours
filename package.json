@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon serverjs"
+    "start:prod": "NODE_ENV=production nodemon serverjs",
+    "debug": "ndb server.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.11",
     "morgan": "^1.10.0",
-    "slugify": "^1.4.0"
+    "slugify": "^1.4.0",
+    "validator": "^13.0.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
